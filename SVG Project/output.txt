@@ -1,0 +1,118 @@
+Mon Apr  3 01:33:19 UTC 2023
+Linux LinuxMachine 5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022 aarch64 aarch64 aarch64 GNU/Linux
+uid=1000(cssuwbstudent) gid=1000(cssuwbstudent) groups=1000(cssuwbstudent),10(wheel)
+=====================================================
+1. Compiles without warnings with -Wall -Wextra flags
+=====================================================
+=====================================================
+2. Runs and produces correct output
+=====================================================
+Reading: circle
+Reading: circle
+Reading: circle
+Reading: circle
+Reading: circle
+Reading: circle
+Reading: triangle
+Reading: rectangle
+=====================================================
+3. clang-tidy warnings are fixed
+=====================================================
+13554 warnings generated.
+27125 warnings generated.
+40679 warnings generated.
+54233 warnings generated.
+Suppressed 54233 warnings (54233 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+=====================================================
+4. clang-format does not find any formatting issues
+=====================================================
+Running clang-format on ./circle.cpp
+Running clang-format on ./main.cpp
+Running clang-format on ./rectangle.cpp
+Running clang-format on ./triangle.cpp
+=====================================================
+5. No memory leaks using g++
+=====================================================
+=====================================================
+6. No memory leaks using valgrind, look for "definitely lost" 
+=====================================================
+==2486== Memcheck, a memory error detector
+==2486== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==2486== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==2486== Command: ./a.out input1.txt svg1.svg
+==2486== Parent PID: 2344
+==2486== 
+==2486== 
+==2486== HEAP SUMMARY:
+==2486==     in use at exit: 0 bytes in 0 blocks
+==2486==   total heap usage: 18 allocs, 18 frees, 94,752 bytes allocated
+==2486== 
+==2486== All heap blocks were freed -- no leaks are possible
+==2486== 
+==2486== For lists of detected and suppressed errors, rerun with: -s
+==2486== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=====================================================
+7. Tests have full code coverage
+=====================================================
+File '/home/cssuwbstudent/ayeshm3/343-svg-ayeshm3/circle.cpp':
+Name                                 Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+----------------------------------------------------------------------------------------------------------------
+Circle::write(std::ostream&) const         1       0 100.00%         9       0 100.00%         0       0   0.00%
+Circle::read(std::istream&)                1       0 100.00%         4       0 100.00%         0       0   0.00%
+----------------------------------------------------------------------------------------------------------------
+TOTAL                                      2       0 100.00%        13       0 100.00%         0       0   0.00%
+
+File '/home/cssuwbstudent/ayeshm3/343-svg-ayeshm3/main.cpp':
+Name                                                                                                                                                                                             Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+readSVGFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)                                                                                                   17       2  88.24%        31       8  74.19%        12       3  75.00%
+writeSVGFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<SVG*, std::allocator<SVG*> >&)                                                        8       2  75.00%        21       5  76.19%         6       2  66.67%
+processSVGFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)         2       0 100.00%         8       0 100.00%         2       0 100.00%
+main                                                                                                                                                                                                   4       1  75.00%         8       3  62.50%         2       1  50.00%
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                 31       5  83.87%        68      16  76.47%        22       6  72.73%
+
+File '/home/cssuwbstudent/ayeshm3/343-svg-ayeshm3/rectangle.cpp':
+Name                                                                                                                                                                                             Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Rectangle::write(std::ostream&) const                                                                                                                                                                  1       0 100.00%        14       0 100.00%         0       0   0.00%
+Rectangle::read(std::istream&)                                                                                                                                                                         1       0 100.00%         4       0 100.00%         0       0   0.00%
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                  2       0 100.00%        18       0 100.00%         0       0   0.00%
+
+File '/home/cssuwbstudent/ayeshm3/343-svg-ayeshm3/triangle.cpp':
+Name                                                                                                                                                                                             Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Triangle::write(std::ostream&) const                                                                                                                                                                   1       0 100.00%         8       0 100.00%         0       0   0.00%
+Triangle::read(std::istream&)                                                                                                                                                                          1       0 100.00%         5       0 100.00%         0       0   0.00%
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                  2       0 100.00%        13       0 100.00%         0       0   0.00%
+=====================================================
+The lines below were never executed
+=====================================================
+   15|      0|    cout << "Failed to open: " << inFile << endl;
+   16|      0|    return svgs;
+   17|      0|  }
+   29|      0|      cout << "Unrecognized type: " << sType << endl;
+   30|      0|      string junk;
+   31|      0|      getline(fin, junk);
+   32|      0|      obj = nullptr;
+   33|      0|    }
+   46|      0|    return false;
+   47|      0|  }
+   50|      0|    cout << "Failed to write to: " << outFile << endl;
+   51|      0|    return false;
+   52|      0|  }
+   81|      0|    cout << "usage: svg inputfile outputfile [input2 output2] ..." << endl;
+   82|      0|    exit(EXIT_FAILURE);
+   83|      0|  }
+   15|      0|  friend ostream &operator<<(ostream &out, const SVG &svg) {
+   16|      0|    return svg.write(out);
+   17|      0|  }
+Mon Apr  3 01:33:26 UTC 2023
+=====================================================
+To create an output.txt file with all the output from this script
+Run the below command
+      ./create-output.sh > output.txt 2>&1 
+=====================================================

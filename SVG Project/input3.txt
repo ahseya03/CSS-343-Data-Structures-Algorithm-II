@@ -1,0 +1,4 @@
+circle 400 400 240 purple
+circle 350 350 50 white
+circle 470 350 50 white
+circle  400 500 50 white

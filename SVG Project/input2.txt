@@ -1,0 +1,2 @@
+triangle 0 800 400 0 800 800 brown
+triangle 0 800 400 400 800 800 red

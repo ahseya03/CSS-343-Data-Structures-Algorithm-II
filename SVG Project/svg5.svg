@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="800">
+      <circle cx="100" cy="100" r="50" fill="red"  />
+      <circle cx="200" cy="100" r="25" fill="green"  />
+      <circle cx="300" cy="100" r="10" fill="blue"  />
+      <circle cx="75" cy="75" r="50" fill="black"  />
+      <circle cx="160" cy="650" r="80" fill="purple"  />
+      <circle cx="640" cy="560" r="80" fill="pink"  />
+      <rect x="100" y="370" rx="0" ry="0" width="200" height="80" style="fill:blue" transform="rotate()0" stroke="blue"  />
+</svg>

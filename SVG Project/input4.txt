@@ -1,0 +1,2 @@
+triangle 0 700 200 0 700 700 green
+triangle 0 400 0 20 400 400 green

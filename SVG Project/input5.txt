@@ -1,0 +1,7 @@
+circle 100 100 50 red
+circle 200 100 25 green
+circle 300 100 10 blue
+circle 75 75 50 black
+circle 160 650 80 purple
+circle 640 560 80 pink
+rectangle 100 370 0 0 200 80 blue 0 blue

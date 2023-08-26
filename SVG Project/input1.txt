@@ -1,0 +1,11 @@
+circle 400 400 240 yellow
+circle 350 350 50 white
+circle 350 350 25 black
+circle 470 350 50 white
+circle 470 350 25 black
+circle  400 500 50 pink
+triangle 400 350 450 500 350 500  orange
+rectangle 100 370 0 0 200 80 blue 0 blue
+
+
+
