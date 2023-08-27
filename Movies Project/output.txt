@@ -1,0 +1,1081 @@
+Tue Jun  6 06:54:13 UTC 2023
+Linux LinuxMachine 5.15.49-linuxkit #1 SMP PREEMPT Tue Sep 13 07:51:32 UTC 2022 aarch64 aarch64 aarch64 GNU/Linux
+uid=1000(cssuwbstudent) gid=1000(cssuwbstudent) groups=1000(cssuwbstudent),10(wheel)
+=====================================================
+1. Compiles without warnings with -Wall -Wextra flags
+=====================================================
+=====================================================
+2. Runs and produces correct output
+=====================================================
+=================Starting Storetest.cpp=================
+Start testStore1
+End testStore1
+Start testStore2
+End testStore2
+=====================================
+Start testStoreFinal
+End testStoreFinal
+=====================================
+Done.
+============================================================
+Invalid genre type: Z
+Invalid genre type: Z
+Testings data4customers.txt
+=================Customer Information================
+	Customer ID: 1000 Full Name:  Mouse Minnie
+	Customer ID: 9000 Full Name:  Lizard Larry
+	Customer ID: 8000 Full Name:  Wacky Wally
+	Customer ID: 5000 Full Name:  Frog Freddie
+	Customer ID: 2000 Full Name:  Duck Donald
+	Customer ID: 1111 Full Name:  Mouse Mickey
+	Customer ID: 3333 Full Name:  Witch Wicked
+	Customer ID: 4444 Full Name:  Moose Bullwinkle
+	Customer ID: 6666 Full Name:  Donkey Darrell
+	Customer ID: 7777 Full Name:  Spider Sammy
+	Customer ID: 8888 Full Name:  Pig Porky
+	Customer ID: 9999 Full Name:  Duck Daffy
+Testings data4commands.txt
+================= Inventory List of all Items in Store =================
+Genre : Comedy
+	F D 10  Woody Allen  Annie Hall 1977
+	F D 10  Joel Coen  Fargo 1996
+	F D 10  John Landis  National Lampoon's Animal House 1978
+	F D 10  Different Years  Pirates of the Caribbean 2000
+	F D 10  Gore Verbinski  Pirates of the Caribbean 2003
+	F D 10  Nora Ephron  Sleepless in Seattle 1993
+	F D 10  Rob Reiner  When Harry Met Sally 1989
+	F D 10  Nora Ephron  You've Got Mail 1998
+
+================= Summary of Total Borrowed And Remaining(Comedy Movie) =================
+ Annie Hall( Woody Allen, 1977) 
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Fargo( Joel Coen, 1996) 
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ National Lampoon's Animal House( John Landis, 1978) 
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Pirates of the Caribbean( Different Years, 2000) 
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Pirates of the Caribbean( Gore Verbinski, 2003) 
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Sleepless in Seattle( Nora Ephron, 1993) 
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ When Harry Met Sally( Rob Reiner, 1989) 
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ You've Got Mail( Nora Ephron, 1998) 
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+========================================================================================
+Genre : Drama
+	D D 10  Barry Levinson  Good Morning Vietnam 1988
+	D D 10  Barry Levinson  Same Director Good Morning Vietnam 1988
+	D D 10  Clint Eastwood  Unforgiven 1992
+	D D 10  Gus Van Sant  Good Will Hunting 2000
+	D D 10  Jonathan Demme  Silence of the Lambs 1991
+	D D 10  Nancy Savoca  Dogfight 1991
+	D D 10  Phillippe De Broca  King of Hearts 1967
+	D D 10  Steven Spielberg  Schindler's List 1993
+
+================= Summary of Total Borrowed And Remaining(Drama Movie) =================
+ Good Morning Vietnam
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Same Director Good Morning Vietnam
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Unforgiven
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Good Will Hunting
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Silence of the Lambs
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Dogfight
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ King of Hearts
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Schindler's List
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+========================================================================================
+Genre : Classic
+	C D 10  George Cukor  Holiday  Cary Grant 9 1938
+	C D 10  George Cukor  Holiday  Katherine Hepburn 9 1938
+	C D 10  Victor Fleming  Gone With the Wind  Clark Gable 2 1939
+	C D 10  Victor Fleming  The Wizard of Oz  Judy Garland 7 1939
+	C D 10  Victor Fleming  Gone With the Wind  Vivien Leigh 2 1939
+	C D 10  George Cukor  The Philadelphia Story  Cary Grant 5 1940
+	C D 10  George Cukor  The Philadelphia Story  Katherine Hepburn 5 1940
+	C D 10  John Huston  The Maltese Falcon  Humphrey Bogart 10 1941
+	C D 10  Michael Curtiz  Casablanca  Humphrey Bogart 8 1942
+	C D 10  Michael Curtiz  Casablanca  Ingrid Bergman 8 1942
+	C D 10  Frank Capra  It's a Wonderful Life  Donna Reed 11 1946
+	C D 10  Frank Capra  It's a Wonderful Life  James Steward 11 1946
+	C D 10  Stanley Kubrick  A Clockwork Orange  Malcolm McDowell 2 1971
+	C D 10  Hal Ashby  Harold and Maude  Ruth Gordon 3 1971
+
+================= Summary of Total Borrowed And Remaining(Classic Movie) =================
+ Holiday( Cary Grant 9 1938)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Holiday( Katherine Hepburn 9 1938)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Gone With the Wind( Clark Gable 2 1939)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ The Wizard of Oz( Judy Garland 7 1939)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Gone With the Wind( Vivien Leigh 2 1939)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ The Philadelphia Story( Cary Grant 5 1940)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ The Philadelphia Story( Katherine Hepburn 5 1940)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ The Maltese Falcon( Humphrey Bogart 10 1941)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Casablanca( Humphrey Bogart 8 1942)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Casablanca( Ingrid Bergman 8 1942)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ It's a Wonderful Life( Donna Reed 11 1946)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ It's a Wonderful Life( James Steward 11 1946)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ A Clockwork Orange( Malcolm McDowell 2 1971)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Harold and Maude( Ruth Gordon 3 1971)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+========================================================================================
+=======================================================
+There is no history for  Mouse Minnie
+=======================================================
+=======================================================
+There is no history for  Frog Freddie
+=======================================================
+=======================================================
+There is no history for  Wacky Wally
+=======================================================
+Invalid command type! X
+Invalid command type! Z
+There is no customer: 1234
+Movie: Bogus Title(Not found), therefore your transaction: B 1000 D F Bogus Title, 2001(Failed)
+ Harold and Maude not available in stock
+ Harold and Maude not available in stock
+ Harold and Maude not available in stock
+Movie: Bogus Title(Not found), therefore your transaction: B 1000 D D Steven Spielberg, Bogus Title,(Failed)
+================= Inventory List of all Items in Store =================
+Genre : Comedy
+	F D 9  Woody Allen  Annie Hall 1977
+	F D 8  Joel Coen  Fargo 1996
+	F D 9  John Landis  National Lampoon's Animal House 1978
+	F D 10  Different Years  Pirates of the Caribbean 2000
+	F D 10  Gore Verbinski  Pirates of the Caribbean 2003
+	F D 9  Nora Ephron  Sleepless in Seattle 1993
+	F D 9  Rob Reiner  When Harry Met Sally 1989
+	F D 9  Nora Ephron  You've Got Mail 1998
+
+================= Summary of Total Borrowed And Remaining(Comedy Movie) =================
+ Annie Hall( Woody Allen, 1977) 
+	 Borrowed count: 1
+	 Movies remaining: 9
+
+ Fargo( Joel Coen, 1996) 
+	 Borrowed count: 2
+	 Movies remaining: 8
+
+ National Lampoon's Animal House( John Landis, 1978) 
+	 Borrowed count: 1
+	 Movies remaining: 9
+
+ Pirates of the Caribbean( Different Years, 2000) 
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Pirates of the Caribbean( Gore Verbinski, 2003) 
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Sleepless in Seattle( Nora Ephron, 1993) 
+	 Borrowed count: 1
+	 Movies remaining: 9
+
+ When Harry Met Sally( Rob Reiner, 1989) 
+	 Borrowed count: 1
+	 Movies remaining: 9
+
+ You've Got Mail( Nora Ephron, 1998) 
+	 Borrowed count: 1
+	 Movies remaining: 9
+
+========================================================================================
+Genre : Drama
+	D D 9  Barry Levinson  Good Morning Vietnam 1988
+	D D 10  Barry Levinson  Same Director Good Morning Vietnam 1988
+	D D 9  Clint Eastwood  Unforgiven 1992
+	D D 9  Gus Van Sant  Good Will Hunting 2000
+	D D 9  Jonathan Demme  Silence of the Lambs 1991
+	D D 8  Nancy Savoca  Dogfight 1991
+	D D 9  Phillippe De Broca  King of Hearts 1967
+	D D 9  Steven Spielberg  Schindler's List 1993
+
+================= Summary of Total Borrowed And Remaining(Drama Movie) =================
+ Good Morning Vietnam
+	 Borrowed count: 1
+	 Movies remaining: 9
+
+ Same Director Good Morning Vietnam
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Unforgiven
+	 Borrowed count: 1
+	 Movies remaining: 9
+
+ Good Will Hunting
+	 Borrowed count: 1
+	 Movies remaining: 9
+
+ Silence of the Lambs
+	 Borrowed count: 1
+	 Movies remaining: 9
+
+ Dogfight
+	 Borrowed count: 2
+	 Movies remaining: 8
+
+ King of Hearts
+	 Borrowed count: 1
+	 Movies remaining: 9
+
+ Schindler's List
+	 Borrowed count: 1
+	 Movies remaining: 9
+
+========================================================================================
+Genre : Classic
+	C D 9  George Cukor  Holiday  Cary Grant 9 1938
+	C D 10  George Cukor  Holiday  Katherine Hepburn 9 1938
+	C D 10  Victor Fleming  Gone With the Wind  Clark Gable 2 1939
+	C D 10  Victor Fleming  The Wizard of Oz  Judy Garland 7 1939
+	C D 10  Victor Fleming  Gone With the Wind  Vivien Leigh 2 1939
+	C D 9  George Cukor  The Philadelphia Story  Cary Grant 5 1940
+	C D 9  George Cukor  The Philadelphia Story  Katherine Hepburn 5 1940
+	C D 9  John Huston  The Maltese Falcon  Humphrey Bogart 10 1941
+	C D 10  Michael Curtiz  Casablanca  Humphrey Bogart 8 1942
+	C D 10  Michael Curtiz  Casablanca  Ingrid Bergman 8 1942
+	C D 10  Frank Capra  It's a Wonderful Life  Donna Reed 11 1946
+	C D 10  Frank Capra  It's a Wonderful Life  James Steward 11 1946
+	C D 9  Stanley Kubrick  A Clockwork Orange  Malcolm McDowell 2 1971
+	C D 0  Hal Ashby  Harold and Maude  Ruth Gordon 3 1971
+
+================= Summary of Total Borrowed And Remaining(Classic Movie) =================
+ Holiday( Cary Grant 9 1938)
+	 Borrowed count: 1
+	 Movies remaining: 9
+
+ Holiday( Katherine Hepburn 9 1938)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Gone With the Wind( Clark Gable 2 1939)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ The Wizard of Oz( Judy Garland 7 1939)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Gone With the Wind( Vivien Leigh 2 1939)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ The Philadelphia Story( Cary Grant 5 1940)
+	 Borrowed count: 1
+	 Movies remaining: 9
+
+ The Philadelphia Story( Katherine Hepburn 5 1940)
+	 Borrowed count: 1
+	 Movies remaining: 9
+
+ The Maltese Falcon( Humphrey Bogart 10 1941)
+	 Borrowed count: 1
+	 Movies remaining: 9
+
+ Casablanca( Humphrey Bogart 8 1942)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ Casablanca( Ingrid Bergman 8 1942)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ It's a Wonderful Life( Donna Reed 11 1946)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ It's a Wonderful Life( James Steward 11 1946)
+	 Borrowed count: 0
+	 Movies remaining: 10
+
+ A Clockwork Orange( Malcolm McDowell 2 1971)
+	 Borrowed count: 1
+	 Movies remaining: 9
+
+ Harold and Maude( Ruth Gordon 3 1971)
+	 Borrowed count: 10
+	 Movies remaining: 0
+
+========================================================================================
+=======================================================
+History Summary of all transactions of the customer
+Transaction history log for Mouse Minnie
+1.  B 1000 D D Barry Levinson, Good Morning Vietnam, (Borrowed)
+2.  B 1000 D C 5 1940 Katherine Hepburn (Borrowed)
+3.  B 1000 D D Gus Van Sant, Good Will Hunting, (Borrowed)
+4.  B 1000 D C 5 1940 Cary Grant (Borrowed)
+5.  B 1000 D C 3 1971 Ruth Gordon (Borrowed)
+6.  B 1000 Z F Fargo, 1996 (Borrowed)
+=======================================================
+History Summary of all transactions of the customer
+Transaction history log for Mouse Mickey
+1.  B 1111 D C 2 1971 Malcolm McDowell (Borrowed)
+2.  B 1111 D C 3 1971 Ruth Gordon (Borrowed)
+3.  B 1111 D C 10 1941 Humphrey Bogart (Borrowed)
+4.  B 1111 D C 9 1938 Cary Grant (Borrowed)
+=======================================================
+History Summary of all transactions of the customer
+Transaction history log for Frog Freddie
+1.  B 5000 D C 3 1971 Ruth Gordon (Borrowed)
+2.  R 5000 D C 3 1971 Ruth Gordon (Returned)
+3.  B 5000 D C 3 1971 Ruth Gordon (Borrowed)
+4.  R 5000 D C 3 1971 Ruth Gordon (Returned)
+5.  B 5000 D C 3 1971 Ruth Gordon (Borrowed)
+6.  R 5000 D C 3 1971 Ruth Gordon (Returned)
+7.  B 5000 D C 3 1971 Ruth Gordon (Borrowed)
+=======================================================
+History Summary of all transactions of the customer
+Transaction history log for Wacky Wally
+1.  B 8000 D F You've Got Mail, 1998 (Borrowed)
+2.  R 8000 D F You've Got Mail, 1998 (Returned)
+3.  B 8000 D C 3 1971 Ruth Gordon (Borrowed)
+4.  B 8000 D C 3 1971 Ruth Gordon (Borrowed)
+5.  B 8000 D F National Lampoon's Animal House, 1978 (Borrowed)
+=======================================================
+History Summary of all transactions of the customer
+Transaction history log for Pig Porky
+1.  B 8888 D F Annie Hall, 1977 (Borrowed)
+2.  B 8888 D F When Harry Met Sally, 1989 (Borrowed)
+3.  B 8888 D D Jonathan Demme, Silence of the Lambs, (Borrowed)
+4.  B 8888 D D Nancy Savoca, Dogfight, (Borrowed)
+5.  B 8888 D C 3 1971 Ruth Gordon (Borrowed)
+=====================================================
+3. clang-tidy warnings are fixed
+=====================================================
+11649 warnings generated.
+23298 warnings generated.
+37033 warnings generated.
+48686 warnings generated.
+63604 warnings generated.
+79487 warnings generated.
+90861 warnings generated.
+109209 warnings generated.
+123674 warnings generated.
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/classic.h:12:3: error: single-argument constructors must be marked explicit to avoid unintentional implicit conversions [google-explicit-constructor,-warnings-as-errors]
+  Classic(const string &line);
+  ^
+  explicit 
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/comedy.h:13:3: error: single-argument constructors must be marked explicit to avoid unintentional implicit conversions [google-explicit-constructor,-warnings-as-errors]
+  Comedy(const string &line);
+  ^
+  explicit 
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/customer.cpp:13:24: error: invalid case style for parameter 'ID' [readability-identifier-naming,-warnings-as-errors]
+Customer::Customer(int ID, string firstName, string lastName) {
+                       ^~
+                       id
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/customer.cpp:60:15: error: method 'getNumberOfTransactions' can be made const [readability-make-member-function-const,-warnings-as-errors]
+int Customer::getNumberOfTransactions() { return numberOfTransactions; }
+              ^
+                                        const
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/customer.h:20:16: error: invalid case style for parameter 'ID' [readability-identifier-naming,-warnings-as-errors]
+  Customer(int ID, string firstName, string lastName);
+               ^~
+               id
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/drama.h:13:3: error: single-argument constructors must be marked explicit to avoid unintentional implicit conversions [google-explicit-constructor,-warnings-as-errors]
+  Drama(const string &line);
+  ^
+  explicit 
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/drama.h:23:16: error: function 'Drama::operator<' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name,-warnings-as-errors]
+  virtual bool operator<(const Movie &rhs) const;
+               ^
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/drama.cpp:57:13: note: the definition seen here
+bool Drama::operator<(const Movie &other) const {
+            ^
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/drama.h:23:16: note: differing parameters are named here: ('rhs'), in definition: ('other')
+  virtual bool operator<(const Movie &rhs) const;
+               ^                      ~~~
+                                      other
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/drama.h:26:16: error: function 'Drama::operator>' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name,-warnings-as-errors]
+  virtual bool operator>(const Movie &rhs) const;
+               ^
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/drama.cpp:62:13: note: the definition seen here
+bool Drama::operator>(const Movie &other) const {
+            ^
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/drama.h:26:16: note: differing parameters are named here: ('rhs'), in definition: ('other')
+  virtual bool operator>(const Movie &rhs) const;
+               ^                      ~~~
+                                      other
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/drama.h:29:16: error: function 'Drama::operator==' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name,-warnings-as-errors]
+  virtual bool operator==(const Movie &rhs) const;
+               ^
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/drama.cpp:67:13: note: the definition seen here
+bool Drama::operator==(const Movie &other) const {
+            ^
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/drama.h:29:16: note: differing parameters are named here: ('rhs'), in definition: ('other')
+  virtual bool operator==(const Movie &rhs) const;
+               ^                       ~~~
+                                       other
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/drama.h:32:16: error: function 'Drama::operator!=' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name,-warnings-as-errors]
+  virtual bool operator!=(const Movie &rhs) const;
+               ^
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/drama.cpp:71:13: note: the definition seen here
+bool Drama::operator!=(const Movie &other) const {
+            ^
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/drama.h:32:16: note: differing parameters are named here: ('rhs'), in definition: ('other')
+  virtual bool operator!=(const Movie &rhs) const;
+               ^                       ~~~
+                                       other
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/hashtable.cpp:7:16: error: method 'hashFunction' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+int HashTable::hashFunction(int id) { return (id % MAXTABLESIZE); }
+               ^
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/hashtable.h:24:17: error: parameter 'id' is const-qualified in the function declaration; const-qualification of parameters only has an effect in function definitions [readability-avoid-const-params-in-decls,-warnings-as-errors]
+  Customer *get(const int id);
+                ^~~~~~
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/hashtable.h:30:15: error: parameter 'id' is const-qualified in the function declaration; const-qualification of parameters only has an effect in function definitions [readability-avoid-const-params-in-decls,-warnings-as-errors]
+  bool remove(const int id);
+              ^~~~~~
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/movie.h:10:57: error: all parameters should be named in a function [readability-named-parameter,-warnings-as-errors]
+  friend ostream &operator<<(ostream &out, const Movie &);
+                                                        ^
+                                                         /*movie*/
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:114:9: error: invalid case style for variable 'ID' [readability-identifier-naming,-warnings-as-errors]
+    int ID;
+        ^~
+        id
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:197:9: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+      } else {
+        ^~~~~~
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:206:9: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+      } else {
+        ^~~~~~
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:215:9: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+      } else {
+        ^~~~~~
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:239:16: error: implicit conversion 'int' -> bool [readability-implicit-bool-conversion,-warnings-as-errors]
+        return 1;
+               ^
+               true
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:286:16: error: implicit conversion 'int' -> bool [readability-implicit-bool-conversion,-warnings-as-errors]
+        return 1;
+               ^
+               true
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:329:16: error: implicit conversion 'int' -> bool [readability-implicit-bool-conversion,-warnings-as-errors]
+        return 1;
+               ^
+               true
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:361:12: error: invalid case style for variable 'ID' [readability-identifier-naming,-warnings-as-errors]
+    string ID;
+           ^~
+           id
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:375:9: error: invalid case style for variable 'ID' [readability-identifier-naming,-warnings-as-errors]
+    int ID;
+        ^~
+        id
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:422:15: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+            } else {
+              ^~~~~~
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:463:15: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+            } else {
+              ^~~~~~
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:492:15: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+            } else {
+              ^~~~~~
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:508:15: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+            } else {
+              ^~~~~~
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:547:8: error: implicit conversion 'Customer *' -> bool [readability-implicit-bool-conversion,-warnings-as-errors]
+  if (!customer) {
+      ~^
+                == nullptr
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:559:5: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+  } else
+    ^~~~
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:559:9: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+  } else
+        ^
+note: this fix will not be applied because it overlaps with another fix
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:578:13: error: method 'updateStock' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+bool Store::updateStock(
+            ^
+/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp:600:12: error: method 'subStrAt' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+int Store::subStrAt(string str, int index, char sign) {
+           ^
+Suppressed 123620 warnings (123620 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+32 warnings treated as errors
+=====================================================
+4. clang-format does not find any formatting issues
+=====================================================
+Running clang-format on ./classic.cpp
+Running clang-format on ./comedy.cpp
+Running clang-format on ./customer.cpp
+Running clang-format on ./drama.cpp
+Running clang-format on ./hashtable.cpp
+Running clang-format on ./main.cpp
+Running clang-format on ./movie.cpp
+Running clang-format on ./store.cpp
+Running clang-format on ./store_test.cpp
+=====================================================
+5. No memory leaks using g++
+=====================================================
+=====================================================
+6. No memory leaks using valgrind, look for "definitely lost" 
+=====================================================
+==58210== Memcheck, a memory error detector
+==58210== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==58210== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==58210== Command: ./a.out
+==58210== Parent PID: 57915
+==58210== 
+==58210== 
+==58210== HEAP SUMMARY:
+==58210==     in use at exit: 0 bytes in 0 blocks
+==58210==   total heap usage: 1,999 allocs, 1,999 frees, 1,870,672 bytes allocated
+==58210== 
+==58210== All heap blocks were freed -- no leaks are possible
+==58210== 
+==58210== For lists of detected and suppressed errors, rerun with: -s
+==58210== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=====================================================
+7. Tests have full code coverage
+=====================================================
+File '/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/classic.cpp':
+Name                                                                                                                                                                                                                                                                                        Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Classic::Classic()                                                                                                                                                                                                                                                                                1       1   0.00%         9       9   0.00%         0       0   0.00%
+Classic::Classic(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)                                                                                                                                                                                          1       1   0.00%        14      14   0.00%         0       0   0.00%
+Classic::Classic(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, char, char)         1       0 100.00%         9       0 100.00%         0       0   0.00%
+Classic::~Classic()                                                                                                                                                                                                                                                                               1       0 100.00%         1       0 100.00%         0       0   0.00%
+Classic::setActorAndRelease(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                                                                                                      1       1   0.00%         3       3   0.00%         0       0   0.00%
+Classic::getActorAndRelease[abi:cxx11]()                                                                                                                                                                                                                                                          1       1   0.00%         1       1   0.00%         0       0   0.00%
+Classic::operator<(Classic&) const                                                                                                                                                                                                                                                                1       1   0.00%         3       3   0.00%         0       0   0.00%
+Classic::operator>(Classic&) const                                                                                                                                                                                                                                                                1       1   0.00%         3       3   0.00%         0       0   0.00%
+Classic::operator==(Classic&) const                                                                                                                                                                                                                                                               1       1   0.00%         3       3   0.00%         0       0   0.00%
+Classic::operator!=(Classic&) const                                                                                                                                                                                                                                                               1       1   0.00%         3       3   0.00%         0       0   0.00%
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                            10       8  20.00%        49      39  20.41%         0       0   0.00%
+
+File '/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/comedy.cpp':
+Name                                                                                                                                                                                                                                                                                        Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Comedy::Comedy()                                                                                                                                                                                                                                                                                  1       1   0.00%         8       8   0.00%         0       0   0.00%
+Comedy::Comedy(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)                                                                                                                                                                                            1       1   0.00%        14      14   0.00%         0       0   0.00%
+Comedy::Comedy(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, char, char)                                                                                            1       1   0.00%         8       8   0.00%         0       0   0.00%
+Comedy::~Comedy()                                                                                                                                                                                                                                                                                 1       1   0.00%         1       1   0.00%         0       0   0.00%
+Comedy::operator<(Movie const&) const                                                                                                                                                                                                                                                             1       1   0.00%         3       3   0.00%         0       0   0.00%
+Comedy::operator>(Movie const&) const                                                                                                                                                                                                                                                             1       1   0.00%         3       3   0.00%         0       0   0.00%
+Comedy::operator==(Movie const&) const                                                                                                                                                                                                                                                            1       1   0.00%         3       3   0.00%         0       0   0.00%
+Comedy::operator!=(Movie const&) const                                                                                                                                                                                                                                                            1       1   0.00%         3       3   0.00%         0       0   0.00%
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                             8       8   0.00%        43      43   0.00%         0       0   0.00%
+
+File '/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/customer.cpp':
+Name                                                                                                                                                                                                                                                                                        Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Customer::Customer()                                                                                                                                                                                                                                                                              1       1   0.00%         6       6   0.00%         0       0   0.00%
+Customer::~Customer()                                                                                                                                                                                                                                                                             1       0 100.00%         1       0 100.00%         0       0   0.00%
+Customer::Customer(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                         7       0 100.00%         8       0 100.00%         6       3  50.00%
+Customer::getID() const                                                                                                                                                                                                                                                                           1       0 100.00%         1       0 100.00%         0       0   0.00%
+Customer::getFirstName[abi:cxx11]() const                                                                                                                                                                                                                                                         1       0 100.00%         1       0 100.00%         0       0   0.00%
+Customer::setFirstName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                                                                                                           1       1   0.00%         1       1   0.00%         0       0   0.00%
+Customer::getLastName[abi:cxx11]() const                                                                                                                                                                                                                                                          1       0 100.00%         1       0 100.00%         0       0   0.00%
+Customer::setLastName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                                                                                                            1       1   0.00%         1       1   0.00%         0       0   0.00%
+Customer::logTransaction(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                        3       1  66.67%        10       3  70.00%         2       1  50.00%
+Customer::displayTransaction()                                                                                                                                                                                                                                                                    4       0 100.00%         9       0 100.00%         2       0 100.00%
+Customer::getNumberOfTransactions()                                                                                                                                                                                                                                                               1       0 100.00%         1       0 100.00%         0       0   0.00%
+Customer::borrowedMovie(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                        12      12   0.00%        11      11   0.00%         8       8   0.00%
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                            34      16  52.94%        51      22  56.86%        18      12  33.33%
+
+File '/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/drama.cpp':
+Name                                                                                                                                                                                                                                                                                        Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Drama::Drama()                                                                                                                                                                                                                                                                                    1       1   0.00%         8       8   0.00%         0       0   0.00%
+Drama::Drama(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)                                                                                                                                                                                              1       1   0.00%        14      14   0.00%         0       0   0.00%
+Drama::Drama(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, char, char)                                                                                              1       1   0.00%         8       8   0.00%         0       0   0.00%
+Drama::~Drama()                                                                                                                                                                                                                                                                                   1       1   0.00%         1       1   0.00%         0       0   0.00%
+Drama::operator<(Movie const&) const                                                                                                                                                                                                                                                              1       1   0.00%         3       3   0.00%         0       0   0.00%
+Drama::operator>(Movie const&) const                                                                                                                                                                                                                                                              1       1   0.00%         3       3   0.00%         0       0   0.00%
+Drama::operator==(Movie const&) const                                                                                                                                                                                                                                                             1       1   0.00%         3       3   0.00%         0       0   0.00%
+Drama::operator!=(Movie const&) const                                                                                                                                                                                                                                                             1       1   0.00%         3       3   0.00%         0       0   0.00%
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                             8       8   0.00%        43      43   0.00%         0       0   0.00%
+
+File '/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/hashtable.cpp':
+Name                                                                                                                                                                                                                                                                                        Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HashTable::HashTable()                                                                                                                                                                                                                                                                            2       0 100.00%         1       0 100.00%         0       0   0.00%
+HashTable::hashFunction(int)                                                                                                                                                                                                                                                                      2       0 100.00%         1       0 100.00%         0       0   0.00%
+HashTable::~HashTable()                                                                                                                                                                                                                                                                           6       0 100.00%        11       0 100.00%         4       0 100.00%
+HashTable::insert(Customer*)                                                                                                                                                                                                                                                                     14       2  85.71%        23       6  73.91%         8       2  75.00%
+HashTable::get(int)                                                                                                                                                                                                                                                                               7       0 100.00%        11       0 100.00%         4       0 100.00%
+HashTable::size() const                                                                                                                                                                                                                                                                           6       6   0.00%        11      11   0.00%         4       4   0.00%
+HashTable::remove(int)                                                                                                                                                                                                                                                                           10      10   0.00%        19      19   0.00%         6       6   0.00%
+HashTable::printAll()                                                                                                                                                                                                                                                                            11      11   0.00%        19      19   0.00%         8       8   0.00%
+HashTable::getAll()                                                                                                                                                                                                                                                                               6       0 100.00%        11       0 100.00%         4       0 100.00%
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                            64      29  54.69%       107      55  48.60%        38      20  47.37%
+
+File '/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/main.cpp':
+Name                                                                                                                                                                                                                                                                                        Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+main                                                                                                                                                                                                                                                                                             10       3  70.00%        37      12  67.57%         6       3  50.00%
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                            10       3  70.00%        37      12  67.57%         6       3  50.00%
+
+File '/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/movie.cpp':
+Name                                                                                                                                                                                                                                                                                        Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Movie::Movie()                                                                                                                                                                                                                                                                                    1       0 100.00%         9       0 100.00%         0       0   0.00%
+Movie::Movie(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, char, char)                                                                                              1       0 100.00%         9       0 100.00%         0       0   0.00%
+Movie::~Movie()                                                                                                                                                                                                                                                                                   1       0 100.00%         2       0 100.00%         0       0   0.00%
+Movie::borrowMovie()                                                                                                                                                                                                                                                                              4       4   0.00%         7       7   0.00%         2       2   0.00%
+Movie::getNumberOfMovies() const                                                                                                                                                                                                                                                                  1       0 100.00%         1       0 100.00%         0       0   0.00%
+Movie::setNumberOfMovies(int)                                                                                                                                                                                                                                                                     1       0 100.00%         1       0 100.00%         0       0   0.00%
+Movie::getType() const                                                                                                                                                                                                                                                                            1       0 100.00%         1       0 100.00%         0       0   0.00%
+Movie::setType(char)                                                                                                                                                                                                                                                                              1       1   0.00%         1       1   0.00%         0       0   0.00%
+Movie::getGenre() const                                                                                                                                                                                                                                                                           1       0 100.00%         1       0 100.00%         0       0   0.00%
+Movie::setGenre(char)                                                                                                                                                                                                                                                                             1       1   0.00%         1       1   0.00%         0       0   0.00%
+Movie::getDirectorName[abi:cxx11]() const                                                                                                                                                                                                                                                         1       0 100.00%         1       0 100.00%         0       0   0.00%
+Movie::setDirectorName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                                                                                                           1       1   0.00%         1       1   0.00%         0       0   0.00%
+Movie::getTitle[abi:cxx11]() const                                                                                                                                                                                                                                                                1       0 100.00%         1       0 100.00%         0       0   0.00%
+Movie::setTitle(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                                                                                                                  1       1   0.00%         1       1   0.00%         0       0   0.00%
+Movie::getReleaseYear() const                                                                                                                                                                                                                                                                     1       0 100.00%         1       0 100.00%         0       0   0.00%
+Movie::setReleaseYear(int)                                                                                                                                                                                                                                                                        1       1   0.00%         1       1   0.00%         0       0   0.00%
+Movie::getActorAndRelease[abi:cxx11]() const                                                                                                                                                                                                                                                      1       0 100.00%         1       0 100.00%         0       0   0.00%
+Movie::setActorAndRelease(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                                                                                                        1       1   0.00%         3       3   0.00%         0       0   0.00%
+operator<<(std::ostream&, Movie const&)                                                                                                                                                                                                                                                           1       1   0.00%         4       4   0.00%         0       0   0.00%
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                            22      11  50.00%        47      19  59.57%         2       2   0.00%
+
+File '/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store.cpp':
+Name                                                                                                                                                                                                                                                                                        Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Store::Store()                                                                                                                                                                                                                                                                                    1       0 100.00%         1       0 100.00%         0       0   0.00%
+Store::~Store()                                                                                                                                                                                                                                                                                   4       0 100.00%        11       0 100.00%         6       0 100.00%
+Store::buildMovieList(std::basic_ifstream<char, std::char_traits<char> >&)                                                                                                                                                                                                                       57       5  91.23%        64      13  79.69%        48      18  62.50%
+Store::buildCustomerList(std::basic_ifstream<char, std::char_traits<char> >&)                                                                                                                                                                                                                    12       1  91.67%        17       3  82.35%        10       3  70.00%
+Store::getNumberOfCustomers()                                                                                                                                                                                                                                                                     1       1   0.00%         1       1   0.00%         0       0   0.00%
+Store::findByID[abi:cxx11](int)                                                                                                                                                                                                                                                                   4       4   0.00%         9       9   0.00%         2       2   0.00%
+Store::removeByID(int)                                                                                                                                                                                                                                                                            4       4   0.00%         9       9   0.00%         2       2   0.00%
+Store::addCustomer(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                         4       4   0.00%         9       9   0.00%         2       2   0.00%
+Store::updateInfo(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                          3       3   0.00%         8       8   0.00%         2       2   0.00%
+Store::executeCommand(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                                                                                                           87      13  85.06%       263      29  88.97%        66      14  78.79%
+Store::executeCommandFile(std::basic_ifstream<char, std::char_traits<char> >&)                                                                                                                                                                                                                    3       0 100.00%         7       0 100.00%         2       0 100.00%
+Store::showHistory(int)                                                                                                                                                                                                                                                                           7       1  85.71%        18       2  88.89%         4       1  75.00%
+Store::printAllCustomer()                                                                                                                                                                                                                                                                         2       0 100.00%         8       0 100.00%         2       0 100.00%
+Store::updateStock(int, Movie*)                                                                                                                                                                                                                                                                   4       0 100.00%        10       0 100.00%         2       0 100.00%
+Store::subStrAt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, char)                                                                                                                                                                                       8       0 100.00%        13       0 100.00%         6       0 100.00%
+store.cpp:Store::executeCommand(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)::$_0::operator()(Movie*, Movie*) const                                                                                                                                           4       0 100.00%         7       0 100.00%         2       0 100.00%
+store.cpp:Store::executeCommand(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)::$_1::operator()(Movie*, Movie*) const                                                                                                                                           4       0 100.00%         7       0 100.00%         2       0 100.00%
+store.cpp:Store::executeCommand(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)::$_2::operator()(Movie*, Movie*) const                                                                                                                                           4       0 100.00%         7       0 100.00%         2       0 100.00%
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                           213      36  83.10%       469      83  82.30%       160      44  72.50%
+
+File '/home/cssuwbstudent/ayeshm3/343-movies-ahseya03/store_test.cpp':
+Name                                                                                                                                                                                                                                                                                        Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+testStore1()                                                                                                                                                                                                                                                                                      3       0 100.00%        17       2  88.24%         2       0 100.00%
+testStore2()                                                                                                                                                                                                                                                                                      1       0 100.00%         4       0 100.00%         0       0   0.00%
+testStoreFinal()                                                                                                                                                                                                                                                                                  1       0 100.00%         6       0 100.00%         0       0   0.00%
+testAll()                                                                                                                                                                                                                                                                                         1       0 100.00%         5       0 100.00%         0       0   0.00%
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                             6       0 100.00%        32       2  93.75%         2       0 100.00%
+=====================================================
+The lines below were never executed
+=====================================================
+    5|      0|Classic::Classic() {
+    6|      0|  stock = 0;
+    7|      0|  directorName = "";
+    8|      0|  title = "";
+    9|      0|  actorAndRelease = "";
+   10|      0|  releaseYear = 0;
+   11|      0|  type = ' ';
+   12|      0|  genre = ' ';
+   13|      0|}
+   15|      0|Classic::Classic(const string &line) {
+   16|      0|  stringstream parser(line);
+   19|      0|  string part;
+   21|      0|  getline(parser, part, ',');
+   22|      0|  type = part[0];
+   24|      0|  getline(parser, part, ',');
+   25|      0|  stock = stoi(part);
+   27|      0|  getline(parser, part, ',');
+   28|      0|  directorName = part;
+   30|      0|  getline(parser, part, ',');
+   31|      0|  title = part;
+   33|      0|  getline(parser, part);
+   34|      0|  actorAndRelease = part;
+   35|      0|}
+   55|      0|void Classic::setActorAndRelease(string actorAndRelease) {
+   56|      0|  actorAndRelease = actorAndRelease;
+   57|      0|}
+   60|      0|string Classic::getActorAndRelease() { return actorAndRelease; }
+   63|      0|bool Classic::operator<(Classic &other) const {
+   64|      0|  return actorAndRelease < other.getActorAndRelease();
+   65|      0|}
+   68|      0|bool Classic::operator>(Classic &other) const {
+   69|      0|  return actorAndRelease > other.getActorAndRelease();
+   70|      0|}
+   74|      0|bool Classic::operator==(Classic &other) const {
+   75|      0|  return actorAndRelease == other.getActorAndRelease();
+   76|      0|}
+   79|      0|bool Classic::operator!=(Classic &other) const {
+   80|      0|  return actorAndRelease != other.getActorAndRelease();
+   81|      0|}
+    4|      0|Comedy::Comedy() {
+    6|      0|  stock = 0;
+    7|      0|  directorName = "";
+    8|      0|  title = "";
+    9|      0|  releaseYear = 0;
+   10|      0|  type = ' ';
+   11|      0|  genre = ' ';
+   12|      0|}
+   15|      0|Comedy::Comedy(const string &line) {
+   16|      0|  stringstream parser(line);
+   17|      0|  string part;
+   21|      0|  getline(parser, part, ',');
+   22|      0|  type = part[0];
+   24|      0|  getline(parser, part, ',');
+   25|      0|  stock = atoi(part.c_str());
+   27|      0|  getline(parser, part, ',');
+   28|      0|  directorName = part;
+   30|      0|  getline(parser, part, ',');
+   31|      0|  title = part;
+   33|      0|  getline(parser, part, ',');
+   34|      0|  releaseYear = atoi(part.c_str());
+   35|      0|}
+   38|      0|               char genre) {
+   40|      0|  this->stock = stock;
+   41|      0|  this->directorName = name;
+   42|      0|  this->title = title;
+   43|      0|  this->releaseYear = release;
+   44|      0|  this->type = type;
+   45|      0|  this->genre = genre;
+   46|      0|}
+   49|      0|Comedy::~Comedy() {}
+   52|      0|bool Comedy::operator<(const Movie &other) const {
+   53|      0|  return title < other.getTitle();
+   54|      0|}
+   57|      0|bool Comedy::operator>(const Movie &other) const {
+   58|      0|  return title > other.getTitle();
+   59|      0|}
+   62|      0|bool Comedy::operator==(const Movie &other) const {
+   63|      0|  return title == other.getTitle();
+   64|      0|}
+   67|      0|bool Comedy::operator!=(const Movie &other) const {
+   68|      0|  return title != other.getTitle();
+   69|      0|}
+    4|      0|Customer::Customer() {
+    5|      0|  ID = 0;
+    6|      0|  fName = "";
+    7|      0|  lName = "";
+    8|      0|  numberOfTransactions = 0;
+    9|      0|}
+   27|      0|void Customer::setFirstName(string firstname) { this->fName = firstname; }
+   31|      0|void Customer::setLastName(string lastName) { this->lName = lastName; }
+   41|      0|    cout << "    "
+   42|      0|         << "No transaction history" << endl;
+   43|      0|  }
+   62|      0|bool Customer::borrowedMovie(string cmd, string info) {
+   63|      0|  if (numberOfTransactions == 0) {
+   65|      0|    return false;
+   66|      0|  }
+   68|      0|  for (int i = numberOfTransactions - 1; i >= 0; i--) {
+   69|      0|    if (history[i][1] == cmd && history[i][0] == info) {
+   70|      0|      return true;
+   71|      0|    }
+   72|      0|  }
+   73|      0|  return false;
+   74|      0|}
+    6|      0|Drama::Drama() {
+    8|      0|  stock = 0;
+    9|      0|  directorName = "";
+   10|      0|  title = "";
+   11|      0|  releaseYear = 0;
+   12|      0|  type = ' ';
+   13|      0|  genre = ' ';
+   14|      0|}
+   17|      0|Drama::Drama(const string &line) {
+   19|      0|  stringstream parser(line);
+   20|      0|  string part;
+   24|      0|  getline(parser, part, ',');
+   25|      0|  type = part[0];
+   27|      0|  getline(parser, part, ',');
+   28|      0|  stock = atoi(part.c_str());
+   30|      0|  getline(parser, part, ',');
+   31|      0|  directorName = part;
+   33|      0|  getline(parser, part, ',');
+   34|      0|  title = part;
+   36|      0|  getline(parser, part, ',');
+   37|      0|  releaseYear = atoi(part.c_str());
+   38|      0|}
+   43|      0|             char genre) {
+   45|      0|  stock = stock;
+   46|      0|  directorName = name;
+   47|      0|  title = title;
+   48|      0|  releaseYear = release;
+   49|      0|  type = type;
+   50|      0|  genre = genre;
+   51|      0|}
+   54|      0|Drama::~Drama() {}
+   57|      0|bool Drama::operator<(const Movie &other) const {
+   58|      0|  return directorName < other.getDirectorName();
+   59|      0|}
+   62|      0|bool Drama::operator>(const Movie &other) const {
+   63|      0|  return directorName > other.getDirectorName();
+   64|      0|}
+   67|      0|bool Drama::operator==(const Movie &other) const {
+   68|      0|  return directorName == other.getDirectorName();
+   69|      0|}
+   71|      0|bool Drama::operator!=(const Movie &other) const {
+   72|      0|  return directorName != other.getDirectorName();
+   73|      0|}
+   51|      0|        delete nodeToAdd;
+   52|      0|        return false; //
+   53|      0|      }
+   57|      0|      delete nodeToAdd;
+   58|      0|      return false; //
+   59|      0|    }
+   82|      0|int HashTable::size() const {
+   84|      0|  int size = 0;
+   86|      0|  for (int i = 0; i < customerTable.size(); i++) {
+   88|      0|    Node *current = customerTable[i];
+   90|      0|    while (current != nullptr) {
+   92|      0|      size++;
+   94|      0|      current = current->next;
+   95|      0|    }
+   96|      0|  }
+   98|      0|  return size;
+   99|      0|}
+  101|      0|bool HashTable::remove(const int id) {
+  103|      0|  int index = hashFunction(id);
+  106|      0|  Node *current = customerTable[index];
+  108|      0|  Node *prev = nullptr;
+  110|      0|  while (current != nullptr) {
+  112|      0|    if (current->id == id) {
+  114|      0|      if (prev == nullptr) {
+  116|      0|        customerTable[index] = current->next;
+  117|      0|      } else {
+  120|      0|        prev->next = current->next;
+  121|      0|      }
+  124|      0|      delete current;
+  125|      0|      return true;
+  126|      0|    }
+  129|      0|    prev = current;
+  130|      0|    current = current->next;
+  131|      0|  }
+  133|      0|  return false;
+  134|      0|}
+  136|      0|void HashTable::printAll() {
+  137|      0|  for (int i = 0; i < MAXTABLESIZE; i++) {
+  138|      0|    Node *current = customerTable[i];
+  139|      0|    if (current != nullptr) {
+  140|      0|      cout << "[";
+  143|      0|      if (i < 10) {
+  144|      0|        cout << "0";
+  145|      0|      }
+  148|      0|      cout << i << "] => ";
+  150|      0|      while (current != nullptr) {
+  152|      0|        string fullName = current->customer->getFirstName() + " " +
+  153|      0|                          current->customer->getLastName();
+  154|      0|        cout << "[" << current->id << " " << fullName << "] ";
+  155|      0|        current = current->next;
+  156|      0|      }
+  159|      0|      cout << "\n";
+  160|      0|    }
+  161|      0|  }
+  162|      0|}
+   21|      0|    cout << "File could not be opened." << endl;
+   22|      0|    system("pause");
+   23|      0|    return -1;
+   24|      0|  }
+   30|      0|    cout << "File could not be opened." << endl;
+   31|      0|    system("pause");
+   32|      0|    return -1;
+   33|      0|  }
+   43|      0|    cout << "File could not be opened." << endl;
+   44|      0|    system("pause");
+   45|      0|    return -1;
+   46|      0|  }
+   33|      0|void Movie::borrowMovie() {
+   34|      0|  if (stock > 0) {
+   35|      0|    stock--;
+   36|      0|  } else {
+   37|      0|    cout << "out of stock" << endl;
+   38|      0|  }
+   39|      0|}
+   51|      0|void Movie::setType(char t) { type = t; }
+   57|      0|void Movie::setGenre(char g) { genre = g; }
+   63|      0|void Movie::setDirectorName(string firstName) { directorName = firstName; }
+   69|      0|void Movie::setTitle(string title) { title = title; }
+   75|      0|void Movie::setReleaseYear(int releaseYear) { releaseYear = releaseYear; }
+   81|      0|void Movie::setActorAndRelease(string actorAndReleaseYear) {
+   82|      0|  actorAndRelease = actorAndReleaseYear;
+   83|      0|}
+   99|      0|ostream &operator<<(ostream &out, const Movie &movie) {
+  100|      0|  out << movie.getTitle() << endl;
+  101|      0|  return out;
+  102|      0|}
+   31|      0|    cout << "Error opening movie file" << endl;
+   32|      0|    return;
+   33|      0|  }
+   51|      0|            cout << "Invalid movie entry: " << line << endl;
+   52|      0|            continue;
+   53|      0|          }
+   65|      0|          cout << "Invalid movie entry: " << line << endl;
+   66|      0|        }
+   78|      0|            cout << "Invalid movie entry: " << line << endl;
+   79|      0|            continue;
+   80|      0|          }
+   92|      0|          cout << "Invalid movie entry: " << line << endl;
+   93|      0|        }
+  106|      0|    cout << "Error opening customer file" << endl;
+  107|      0|    return;
+  108|      0|  }
+  128|      0|int Store::getNumberOfCustomers() { return customerList.size(); }
+  131|      0|string Store::findByID(int id) {
+  133|      0|  Customer *search = customerList.get(id);
+  136|      0|  if (search != NULL) {
+  137|      0|    string firstName = search->getFirstName();
+  138|      0|    string lastName = search->getLastName();
+  140|      0|    return firstName + " " + lastName;
+  141|      0|  }
+  143|      0|  return "The person with given id not found: Invalid ID";
+  144|      0|}
+  146|      0|bool Store::removeByID(int id) {
+  148|      0|  Customer *search = customerList.get(id);
+  150|      0|  if (search != nullptr) {
+  152|      0|    customerList.remove(id);
+  154|      0|    delete search;
+  156|      0|    return true;
+  157|      0|  }
+  159|      0|  return false;
+  160|      0|}
+  162|      0|bool Store::addCustomer(int id, string firstName, string lastName) {
+  164|      0|  Customer *search = customerList.get(id);
+  166|      0|  if (search == nullptr) {
+  169|      0|    Customer *customerToAdd = new Customer(id, firstName, lastName);
+  171|      0|    customerList.insert(customerToAdd);
+  172|      0|    return true;
+  173|      0|  }
+  175|      0|  return false;
+  176|      0|}
+  178|      0|bool Store::updateInfo(int id, string firstName, string lastName) {
+  179|      0|  Customer *customerToUpdate = customerList.get(id);
+  182|      0|  if (customerToUpdate != nullptr) {
+  184|      0|    customerToUpdate->setFirstName(firstName);
+  185|      0|    customerToUpdate->setLastName(lastName);
+  186|      0|  }
+  187|      0|  return false;
+  188|      0|}
+  238|      0|        std::cout << "Failed to open the file." << std::endl;
+  239|      0|        return 1;
+  240|      0|      }
+  285|      0|        std::cout << "Failed to open the file." << std::endl;
+  286|      0|        return 1;
+  287|      0|      }
+  328|      0|        std::cout << "Failed to open the file." << std::endl;
+  329|      0|        return 1;
+  330|      0|      }
+  423|      0|              cout << "Customer not found" << endl;
+  424|      0|            }
+  451|      0|          if (command[0] == 'R') {
+  457|      0|            if (cus != nullptr) {
+  459|      0|              cus->logTransaction(command, "(Returned)");
+  460|      0|              updateStock(1, moviesD[i]);
+  462|      0|              return true;
+  463|      0|            } else {
+  464|      0|              cout << "Customer not found" << endl;
+  465|      0|            }
+  466|      0|          }
+  467|      0|        }
+  493|      0|              cout << "Customer not found" << endl;
+  494|      0|            }
+  509|      0|              cout << "Movie:" << act
+  510|      0|                   << "(Not found), therefore your transaction: " << command
+  511|      0|                   << "(Failed)" << endl;
+  512|      0|            }
+  516|      0|      cout << command << "not found" << endl;
+  517|      0|    }
+  549|      0|    delete customer;
+  550|      0|  }
+   24|      0|  char commandType;
+   33|      0|  cout << "End testStore1" << endl;
+Tue Jun  6 06:54:30 UTC 2023
+=====================================================
+To create an output.txt file with all the output from this script
+Run the below command
+      ./create-output.sh > output.txt 2>&1 
+=====================================================
